@@ -2,12 +2,12 @@
 
 A research-grade quantitative system designed for Gold (**XAUUSD**) and Silver (**XAGUSD**). This project moves beyond retail-grade "M1 noise" to focus on high-fidelity institutional timeframes (1H) and regime-adaptive logic.
 
-### 🧪 Research Question
+###  Research Question
 > **"Does adapting momentum strategies to market volatility regimes significantly improve risk-adjusted returns in precious metals compared to static momentum strategies?"**
 
----
 
-## 🚀 Quick Start
+
+##  Quick Start
 
 ### 1. Setup Environment
 ```bash
@@ -32,7 +32,7 @@ Run the notebooks to validate regime detection logic.
 
 ---
 
-## 🏗️ Strategy Results & Benchmarking
+##  Strategy Results & Benchmarking
 ### 1. Final Comparison (2024 Full Year)
 | Asset | Strategy | Sharpe | Max Drawdown | Total Return | Verdict |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -62,7 +62,7 @@ At each step, regime thresholds and strategy parameters remain fixed to ensure n
 
 ---
 
-## 🛠️ Data Methodology
+##  Data Methodology
 - **Raw Data**: 1-minute (M1) institutional feeds.
 - **Research Timeframe**: 1-hour (1H) bars. This removes "noise" and provides a statistically stable foundation for regime detection.
 - **Validation**: Strict Time-Based Split:
@@ -71,7 +71,7 @@ At each step, regime thresholds and strategy parameters remain fixed to ensure n
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 quantalytics/
 ├── data/
